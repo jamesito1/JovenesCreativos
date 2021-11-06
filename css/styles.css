@@ -1,0 +1,51 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+.barra_navegacion ul li{
+    display: inline-block;
+    border: solid black;
+    margin-top: 0%;
+    
+    
+
+
+
+}
+
+.barra_navegacion ul{
+
+    list-style:none ;
+}
+
+.barra_navegacion ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    
+
+
+}
+
+.barra_navegacion ul{
+border: solid black;
+margin-left: 0%;
+    border-left: 0;
+    padding-left: 0;
+    padding-top: 0;
+    margin-top: 0;
+    
+}
+
+.inicio{
+    margin-right: 65%;
+
+
+}
+
