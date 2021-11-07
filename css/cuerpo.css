@@ -1,0 +1,25 @@
+.cuerpo{
+    width:80% ;
+    border: solid salmon;
+    margin:auto;
+   
+   
+
+
+
+}
+
+.cuerpo h1{
+
+    text-align: center;
+    font-size:70px ;
+    margin: 0;
+    border: solid springgreen;
+    font-family: 'Poiret One', cursive;
+}
+
+.cuerpo p{
+
+    font-size: 20px;
+    font-family: 'Mohave', sans-serif;
+}
