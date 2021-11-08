@@ -3,10 +3,6 @@
     border: solid salmon;
     margin:auto;
    
-   
-
-
-
 }
 
 .cuerpo h1{
@@ -22,4 +18,28 @@
 
     font-size: 20px;
     font-family: 'Mohave', sans-serif;
+}
+
+.cuerpo h2{
+    font-size: 30px;
+    font-family: 'Poiret One', cursive;
+}
+
+.cuerpo table tr th,td{
+
+    border:solid #ABEBC6;
+    border-radius: 3px;
+}
+
+.cuerpo table th{
+    font-size:30px;
+    font-family:'Poiret One', cursive;
+    padding: 2px;
+}
+
+.cuerpo table td{
+    font-size: 20px;
+    font-family: 'Mohave', sans-serif;
+    padding: 4px;
+
 }
