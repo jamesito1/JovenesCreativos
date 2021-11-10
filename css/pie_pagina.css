@@ -1,9 +1,42 @@
-.iconos li {
+.iconos {
     list-style: none;
     display: inline-block;
-    margin-left: 100px;
-    font-size: 10px;
+    margin-left: 30px;
+    font-size: 25px;
 
+}
+.contacto{
+
+    list-style: none;
+    font-family: 'Mohave', sans-serif;
+    font-size: 17px;
+}
+
+.iconos a{
+    color: black;
+}
+
+.iconos li a :hover{
+    color: #D5F5E3;
+}
+.pie{
+    background-color: #82E0AA;
+    position: absolute;
+    margin-top: 2%;
+    
+}
+
+.pie hr{
+    width: 90%;
 
 }
 
+.pie h3{
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+}
+
+.pie p{
+    font-family: 'Mohave', sans-serif;
+    font-size: 17px;
+}
