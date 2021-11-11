@@ -1,8 +1,12 @@
 .cuerpo{
     width:80% ;
-    border: solid salmon;
     margin:auto;
-   
+    background-color: #EEFFE7;
+    margin-top: 0;
+    border-top: 0;
+    padding-top: 0;
+    padding-left: 5px;
+    padding-bottom: 15px;
 }
 
 .cuerpo h1{
@@ -10,8 +14,9 @@
     text-align: center;
     font-size:70px ;
     margin: 0;
-    border: solid springgreen;
+   
     font-family: 'Poiret One', cursive;
+    
 }
 
 .cuerpo p{
@@ -43,3 +48,4 @@
     padding: 4px;
 
 }
+

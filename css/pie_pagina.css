@@ -16,13 +16,13 @@
     color: black;
 }
 
-.iconos li a :hover{
+.iconos a :hover{
     color: #D5F5E3;
 }
 .pie{
     background-color: #82E0AA;
     position: absolute;
-    margin-top: 2%;
+    
     
 }
 
