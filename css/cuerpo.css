@@ -35,51 +35,64 @@
     font-family: 'Poiret One', cursive;
 }
 
-.cuerpo table tr th,td{
+.hobbies_tabla tr th,td{
 
     border:solid #ABEBC6;
     border-radius: 3px;
 }
 
-.cuerpo table th{
+.hobbies_tabla th{
     font-size:30px;
     font-family:'Poiret One', cursive;
     padding: 2px;
 }
 
-.cuerpo table td{
+.hobbies_tabla td{
     font-size: 20px;
     font-family: 'Mohave', sans-serif;
     padding: 4px;
 
 }
 
-.cuerpo ul li{
+.habilidades_lista {
+    
 
     font-family: 'Mohave', sans-serif;
     font-size: 20px;
     
 }
 
-.conocimientos {
+.habilidades_iconos img{
+    width: 20%;
+
+}
+
+.habilidades_iconos{
+    padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.habilidades_lista li {
     list-style: none;
     display: inline-block;
     padding-left: 15px;
-    width: 200px;
+    width: 25%;
     margin: 5px;
     text-align: left;
     padding: 5px;
     border-radius: 5px;
+    
 }
 
-.conocimientos:hover{
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
-    background-color:#E7FAFF;
+.habilidades_lista li:hover{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    background-color:#FFF8E7;
 
 }
 
 .conocimientos_iconos img{
-    width: 40px;
+    width: 20%;
 
 }
 .conocimientos_iconos{
@@ -171,6 +184,10 @@
 .contenido_p2 {
     height: 94%;
     color: white;
+    font-size: 20px;
+    font-family: 'Mohave', sans-serif;
+    margin-top: 2%;
+    background-image: linear-gradient(310deg, #ff9d7a 0, #ff8f83 10%, #ff8089 20%, #ff718d 30%, #ff628d 40%, #f25389 50%, #d34683 60%, #b63c7d 70%, #9e3678 80%, #883174 90%, #752e71 100%);
 }
 
 .interesting_portafolio{
@@ -196,11 +213,109 @@
     
   }
 
-  .contenido_p2{
-    font-size: 20px;
-    font-family: 'Mohave', sans-serif;
-    margin-top: 2%;
-    background-image: linear-gradient(310deg, #ff9d7a 0, #ff8f83 10%, #ff8089 20%, #ff718d 30%, #ff628d 40%, #f25389 50%, #d34683 60%, #b63c7d 70%, #9e3678 80%, #883174 90%, #752e71 100%);
-    
+/**Responsividad con dispositivos moviles**/
 
+  @media(max-width: 480px){
+   
+    .inicio{
+        margin-right: 0%;
+        
+        
+    
+    
+    }
+
+    .habilidades_lista li {
+        list-style: none;
+        display: inline-block;
+        padding-left: 15px;
+        width: 40%;
+        font-size: 25px;
+       
   }
+
+  .interesting_portafolio{
+    width: 30%;
+    height: 20%;
+    float: left;
+    
+}
+
+.interesting_portafolio img{
+    width: 100%;
+    height: 100%;
+    float: left;
+    background-size: cover;
+   
+}
+.contenido_p2 {
+    height: 90%;
+}
+.juego_portafolio iframe{
+    float: none;
+    width: 100%;
+    
+    
+}
+.juego_IP img{
+    width: 40%;
+}
+
+.cabeza_p h1{
+    top: -80px;
+    font-size: 800%;
+    
+   
+   
+    
+    
+}
+
+.cuerpo p{
+    font-size: 30px;
+}
+
+.pie ul p{
+    font-size: 25px;
+    padding-right: 3%;
+}
+
+.pie ul li{
+    font-size: 25px;
+}
+
+.pie ul h3{
+    font-size: 30px;
+}
+
+.cuerpo h2{
+    font-size: 45px;
+}
+
+.hobbies_tabla td{
+    font-size: 30px;
+
+}
+.contenido_p h2{
+    font-size: 45px;
+
+
+}
+
+.contenido_p p{
+    font-size: 30px;
+
+}
+.contenido_p2 p{
+    font-size: 30px;
+    padding-left: 3%;
+
+}
+
+.contenido_p2 h2{
+    font-size: 45px;
+
+
+}
+
+}
