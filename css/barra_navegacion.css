@@ -50,8 +50,20 @@ margin-left: 0%;
 }
 
 .inicio{
-    margin-right: 64%;
+    margin-right: 60%;
     
 
 
+}
+
+.boton_modo_noche{
+    font-size: 110%;
+    border-radius: 1000PX;
+    border:0;
+    padding: 40%;
+    background-color: #1D9BF0;
+}
+
+.modo_dia{
+    display: none;
 }
