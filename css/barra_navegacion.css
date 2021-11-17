@@ -56,30 +56,3 @@ margin-left: 0%;
 
 }
 
-/**Modo noche-----------------------------------------------------------------------------------------------------*/
-.boton_modo_noche{
-    font-size: 110%;
-    border-radius: 1000PX;
-    border:0;
-    padding: 40%;
-    background-color: #1D9BF0;
-}
-.boton_modo_dia{
-    background-color: #FFD400;
-
-}
-.modo_dia{
-    display: none;
-}
-
-.modo_dia_desactivado{
-    display: none;
-}
-
-.modo_dia_activado{
-    display: inherit;
-
-}
-.modo_noche_desactivado{
- display: none;
-}
