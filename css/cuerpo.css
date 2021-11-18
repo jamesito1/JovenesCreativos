@@ -64,6 +64,7 @@
 
 .habilidades_iconos img{
     width: 20%;
+    
 
 }
 
@@ -249,7 +250,7 @@
    
 }
 .contenido_p2 {
-    height: 90%;
+    height: 95%;
 }
 .juego_portafolio iframe{
     float: none;
