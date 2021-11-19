@@ -14,6 +14,68 @@
     
 }
 
+.btn_curiosidades_abrir {
+    margin-top: 25%;
+    margin-left: 3%;
+  background-color: #ABEBC6;
+  border: 0;
+  border-radius: 1000px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 25px;
+  float: left;
+}
+.btn_curiosidades_cerrar{
+    background-color: #ABEBC6;
+  border: 0;
+  border-radius: 1000px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: white;
+  font-size: 30px;
+  padding: 10px 25px;
+}
+
+.contenedor_curiodidades {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;  
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transition: opacity 0.3s ;
+}
+
+.activar_curiosidad{
+  pointer-events: auto;
+  opacity: 1;
+}
+
+.contenido_curiodidades {
+  background-color: #EEFFE7;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.contenedor_curiodidades h1{
+    font-family: 'Poiret One', cursive;
+}
+
+.contenedor_curiodidades p{
+    font-family: 'Mohave', sans-serif;
+    font-size: 20px;
+}
+
+
 .cuerpo h1{
 
     text-align: center;
@@ -213,110 +275,3 @@
     
     
   }
-
-/**Responsividad con dispositivos moviles**/
-
-  @media(max-width: 480px){
-   
-    .inicio{
-        margin-right: 0%;
-        
-        
-    
-    
-    }
-
-    .habilidades_lista li {
-        list-style: none;
-        display: inline-block;
-        padding-left: 15px;
-        width: 40%;
-        font-size: 25px;
-       
-  }
-
-  .interesting_portafolio{
-    width: 30%;
-    height: 20%;
-    float: left;
-    
-}
-
-.interesting_portafolio img{
-    width: 100%;
-    height: 100%;
-    float: left;
-    background-size: cover;
-   
-}
-.contenido_p2 {
-    height: 95%;
-}
-.juego_portafolio iframe{
-    float: none;
-    width: 100%;
-    
-    
-}
-.juego_IP img{
-    width: 40%;
-}
-
-.cabeza_p h1{
-    top: -80px;
-    font-size: 800%;
-    
-   
-   
-    
-    
-}
-
-.cuerpo p{
-    font-size: 30px;
-}
-
-.pie ul p{
-    font-size: 25px;
-    padding-right: 3%;
-}
-
-.pie ul li{
-    font-size: 25px;
-}
-
-.pie ul h3{
-    font-size: 30px;
-}
-
-.cuerpo h2{
-    font-size: 45px;
-}
-
-.hobbies_tabla td{
-    font-size: 30px;
-
-}
-.contenido_p h2{
-    font-size: 45px;
-
-
-}
-
-.contenido_p p{
-    font-size: 30px;
-
-}
-.contenido_p2 p{
-    font-size: 30px;
-    padding-left: 3%;
-
-}
-
-.contenido_p2 h2{
-    font-size: 45px;
-
-
-}
-
-}
