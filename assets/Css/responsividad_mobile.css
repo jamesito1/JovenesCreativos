@@ -101,4 +101,12 @@
 
 }
 
+.btn_curiosidades_abrir{
+margin-left: -1px;
+    width: 8%;
+    text-align: center;
+    font-size: 300%;
+    padding: 0;
+}
+
 }

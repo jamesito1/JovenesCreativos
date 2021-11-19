@@ -83,9 +83,22 @@
 }
 
 .contenido_p_dark{
-    background-image: linear-gradient(280deg, #103236 0, #132d2f 10%, #152828 20%, #162221 30%, #151b1a 40%, #141414 50%, #120a0d 60%, #0f0006 70%, #0b0000 80%, #050000 90%, #000000 100%);}
+    background-image: linear-gradient(280deg, #103236 0, #132d2f 10%, #152828 20%, #162221 30%, #151b1a 40%, #141414 50%, #120a0d 60%, #0f0006 70%, #0b0000 80%, #050000 90%, #000000 100%);
+}
+.contenido_p2_dark{
+ background-image: linear-gradient(95deg, #103236 0, #132d2f 10%, #152828 20%, #162221 30%, #151b1a 40%, #141414 50%, #120a0d 60%, #0f0006 70%, #0b0000 80%, #050000 90%, #000000 100%);
 
-    .contenido_p2_dark{
-        background-image: linear-gradient(95deg, #103236 0, #132d2f 10%, #152828 20%, #162221 30%, #151b1a 40%, #141414 50%, #120a0d 60%, #0f0006 70%, #0b0000 80%, #050000 90%, #000000 100%);
+ }
 
-    }
+ .btn_curiosidades_abrir_dark{
+     background-color:#1D9BF0 ;
+ }
+
+ .btn_curiosidades_cerrar_dark{
+    background-color:#1D9BF0 ;
+}
+
+.contenido_curiodidades_dark{
+    background-color: black;
+    color: white;
+}

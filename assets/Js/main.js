@@ -11,6 +11,9 @@ let conocimientos_iconos =document.querySelectorAll('.conocimientos_iconos')
 let contenido_p = document.querySelector('.contenido_p')
 let contenido_p2 = document.querySelector('.contenido_p2')
 let habilidades_lista = document.querySelectorAll('.habilidades_lista')
+let btn_curiosidades_abrir = document.querySelector('.btn_curiosidades_abrir')
+let btn_curiosidades_cerrar = document.querySelector('.btn_curiosidades_cerrar')
+let contenido_curiodidades =document.querySelector('.contenido_curiodidades')
 
 console.log(conocimientos_iconos)
 
@@ -29,6 +32,9 @@ btn_noche.addEventListener('click', ()=>{
     document.body.classList.toggle('body_dark');
     pie.classList.toggle('pie_dark');
     cuerpo.classList.toggle('cuerpo_dark');
+    contenido_curiodidades.classList.toggle('contenido_curiodidades_dark')
+    btn_curiosidades_abrir.classList.toggle('btn_curiosidades_abrir_dark')
+    btn_curiosidades_cerrar.classList.toggle('btn_curiosidades_cerrar_dark')
     habilidades_lista[0].classList.toggle('habilidades_lista_dark')
     habilidades_lista[1].classList.toggle('habilidades_lista_dark')
 
@@ -44,7 +50,10 @@ btn_noche.addEventListener('click', ()=>{
     
   }
 if(btn_noche2==3){
+  contenido_curiodidades.classList.toggle('contenido_curiodidades_dark')
   cuerpo.classList.toggle('cuerpo_dark');
+  btn_curiosidades_cerrar.classList.toggle('btn_curiosidades_cerrar_dark')
+  btn_curiosidades_abrir.classList.toggle('btn_curiosidades_abrir_dark');
 }
   
 if(btn_noche2==4){
@@ -75,6 +84,10 @@ const curiosidad = document.getElementById('curiosidad');
 abrir_curiosidad.addEventListener('click', () => {
   contenedor_curiodidades.classList.add('activar_curiosidad');  
   let curiosidad_ale = Math.round(Math.random()*10);
+
+  if(curiosidad_ale==0){
+    curiosidad.innerHTML=""
+  }
   if(curiosidad_ale==1){
     curiosidad.innerHTML ="Tengo un gato llamado Happi, es negro y muy bonito"
   }
