@@ -116,3 +116,4 @@ abrir_curiosidad.addEventListener('click', () => {
 cerrar_curiosidad.addEventListener('click', () => {
   contenedor_curiodidades.classList.remove('activar_curiosidad');
 });
+
