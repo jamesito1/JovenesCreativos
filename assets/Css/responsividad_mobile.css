@@ -1,11 +1,13 @@
-@media(max-width:480px){
+@media( max-width:490px){
    
     .inicio{
-        margin-right: 0%;
-        
-        
-    
-    
+        margin-right: -5%;
+        padding: 0;
+    }
+
+    .boton_modo_noche{
+        font-size: 17px;
+        margin-left: -5px;
     }
 
     .habilidades_lista li {
@@ -21,7 +23,6 @@
     width: 30%;
     height: 20%;
     float: left;
-    
 }
 
 .interesting_portafolio img{
@@ -32,7 +33,7 @@
    
 }
 .contenido_p2 {
-    height: 95%;
+    height: 150%;
 }
 .juego_portafolio iframe{
     float: none;
@@ -46,12 +47,7 @@
 
 .cabeza_p h1{
     top: -80px;
-    font-size: 800%;
-    
-   
-   
-    
-    
+    font-size: 800%; 
 }
 
 .cuerpo p{

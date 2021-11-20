@@ -86,29 +86,29 @@ abrir_curiosidad.addEventListener('click', () => {
   let curiosidad_ale = Math.round(Math.random()*10);
 
   if(curiosidad_ale==0){
-    curiosidad.innerHTML=""
+    curiosidad.innerHTML="Aquí no hay nada 737😘."
   }
   if(curiosidad_ale==1){
-    curiosidad.innerHTML ="Tengo un gato llamado Happi, es negro y muy bonito"
+    curiosidad.innerHTML ="Tengo un gato llamado Happi, es negro y muy bonito."
   }
   if(curiosidad_ale==2){
     curiosidad.innerHTML ="Mi animal favorito son las tortugas, y por mucho tiempo tuve una pero se escapo"
   }if(curiosidad_ale==3){
-    curiosidad.innerHTML ="Mis colores favoritos son el azul,naraja y verde"
+    curiosidad.innerHTML ="Mis colores favoritos son el azul, naranja y verde."
   }if(curiosidad_ale==4){
-    curiosidad.innerHTML ="Naci en un pueblo que esta a 5 horas de medellin, cuando cumpli un año nos mudamos a medellin"
+    curiosidad.innerHTML ="Nací en un pueblo que está a 5 horas de Medellín, cuando cumplí un año nos mudamos a Medellín."
   }if(curiosidad_ale==5){
-    curiosidad.innerHTML ="Mi comida favorita es el arroz, con cualquier cosa sabe bien"
+    curiosidad.innerHTML ="Mi comida favorita es el arroz, con cualquier cosa sabe bien."
   }if(curiosidad_ale==6){
-    curiosidad.innerHTML ="Mi Superheroe favorito es Deadpool"
+    curiosidad.innerHTML ="Mi superhéroe favorito es Deadpool."
   }if(curiosidad_ale==7){
-    curiosidad.innerHTML ="Tengo un hermano sietes años menor que yo"
+    curiosidad.innerHTML ="Tengo un hermano siete años menor que yo."
   }if(curiosidad_ale==8){
-    curiosidad.innerHTML ="Me encata volar cometas"
+    curiosidad.innerHTML ="Me encanta volar cometas."
   }if(curiosidad_ale==9){
-    curiosidad.innerHTML ="Mi pelicula favoritas son: 1917 y mis series favoritas son: Better Call Saul y Breaking Bad"}
+    curiosidad.innerHTML ="Mi película favorita es: 1917 y mis series favoritas son: Better Call Saul y Breaking Bad."}
   if(curiosidad_ale==10){
-    curiosidad.innerHTML ="Mis libros favoritos son: Satanas(Mario Mendoza) y El misterio de Salem's Lot "
+    curiosidad.innerHTML ="Mis libros favoritos son: Satanás (Mario Mendoza) y El misterio de Salem's Lot."
   }
   
 });

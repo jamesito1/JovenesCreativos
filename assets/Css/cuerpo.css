@@ -1,5 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Praise&display=swap');
+
+    
+
 .cuerpo{
     width:80% ;
     margin:auto;
@@ -68,6 +71,7 @@
 
 .contenedor_curiodidades h1{
     font-family: 'Poiret One', cursive;
+    
 }
 
 .contenedor_curiodidades p{
@@ -81,7 +85,8 @@
     text-align: center;
     font-size:70px ;
     margin: 0;
-   
+    animation-duration: 0.5s;
+    animation-name: animacionsita;
     font-family: 'Poiret One', cursive;
     
 }
@@ -200,6 +205,8 @@
     z-index: 2;
     font-family: 'Praise', cursive;
     color: white;
+    animation-duration: 0.5s;
+    animation-name: animacionsita;
     
     
     
@@ -228,6 +235,7 @@
     font-family: 'Poiret One', cursive;
     padding-left: 15% ;
     font-size: 30px;
+    
     
 }
 
@@ -275,3 +283,10 @@
     
     
   }
+  @keyframes animacionsita {
+    from {
+      margin-left: 100%;
+      width: 300%
+       }
+
+    }
